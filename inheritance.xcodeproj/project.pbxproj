@@ -14,6 +14,12 @@
 		A21E8D3A1AB02F5900C95425 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21E8D391AB02F5900C95425 /* Images.xcassets */; };
 		A21E8D3D1AB02F5900C95425 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21E8D3B1AB02F5900C95425 /* LaunchScreen.xib */; };
 		A21E8D491AB02F5900C95425 /* inheritanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A21E8D481AB02F5900C95425 /* inheritanceTests.m */; };
+		A21E8D541AB0302500C95425 /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = A21E8D531AB0302500C95425 /* ClassA.m */; };
+		A21E8D571AB030EA00C95425 /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = A21E8D561AB030EA00C95425 /* ClassB.m */; };
+		A21E8D5A1AB0316B00C95425 /* ClassC.m in Sources */ = {isa = PBXBuildFile; fileRef = A21E8D591AB0316B00C95425 /* ClassC.m */; };
+		A21E8D5D1AB03AB500C95425 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = A21E8D5C1AB03AB500C95425 /* Rectangle.m */; };
+		A21E8D601AB03AD800C95425 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A21E8D5F1AB03AD800C95425 /* XYPoint.m */; };
+		A24E6E2D1AC2D1D100C909F8 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = A24E6E2C1AC2D1D100C909F8 /* Square.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,18 @@
 		A21E8D421AB02F5900C95425 /* inheritanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inheritanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A21E8D471AB02F5900C95425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A21E8D481AB02F5900C95425 /* inheritanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = inheritanceTests.m; sourceTree = "<group>"; };
+		A21E8D521AB0302500C95425 /* ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		A21E8D531AB0302500C95425 /* ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		A21E8D551AB030EA00C95425 /* ClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+		A21E8D561AB030EA00C95425 /* ClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
+		A21E8D581AB0316B00C95425 /* ClassC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassC.h; sourceTree = "<group>"; };
+		A21E8D591AB0316B00C95425 /* ClassC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassC.m; sourceTree = "<group>"; };
+		A21E8D5B1AB03AB500C95425 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		A21E8D5C1AB03AB500C95425 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		A21E8D5E1AB03AD800C95425 /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		A21E8D5F1AB03AD800C95425 /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
+		A24E6E2B1AC2D1D100C909F8 /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		A24E6E2C1AC2D1D100C909F8 /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +103,18 @@
 				A21E8D311AB02F5900C95425 /* AppDelegate.m */,
 				A21E8D331AB02F5900C95425 /* ViewController.h */,
 				A21E8D341AB02F5900C95425 /* ViewController.m */,
+				A21E8D5E1AB03AD800C95425 /* XYPoint.h */,
+				A21E8D5F1AB03AD800C95425 /* XYPoint.m */,
+				A21E8D5B1AB03AB500C95425 /* Rectangle.h */,
+				A21E8D5C1AB03AB500C95425 /* Rectangle.m */,
+				A24E6E2B1AC2D1D100C909F8 /* Square.h */,
+				A24E6E2C1AC2D1D100C909F8 /* Square.m */,
+				A21E8D521AB0302500C95425 /* ClassA.h */,
+				A21E8D531AB0302500C95425 /* ClassA.m */,
+				A21E8D551AB030EA00C95425 /* ClassB.h */,
+				A21E8D561AB030EA00C95425 /* ClassB.m */,
+				A21E8D581AB0316B00C95425 /* ClassC.h */,
+				A21E8D591AB0316B00C95425 /* ClassC.m */,
 				A21E8D361AB02F5900C95425 /* Main.storyboard */,
 				A21E8D391AB02F5900C95425 /* Images.xcassets */,
 				A21E8D3B1AB02F5900C95425 /* LaunchScreen.xib */,
@@ -219,9 +249,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A24E6E2D1AC2D1D100C909F8 /* Square.m in Sources */,
 				A21E8D351AB02F5900C95425 /* ViewController.m in Sources */,
+				A21E8D5D1AB03AB500C95425 /* Rectangle.m in Sources */,
 				A21E8D321AB02F5900C95425 /* AppDelegate.m in Sources */,
+				A21E8D5A1AB0316B00C95425 /* ClassC.m in Sources */,
+				A21E8D541AB0302500C95425 /* ClassA.m in Sources */,
 				A21E8D2F1AB02F5900C95425 /* main.m in Sources */,
+				A21E8D571AB030EA00C95425 /* ClassB.m in Sources */,
+				A21E8D601AB03AD800C95425 /* XYPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +450,7 @@
 				A21E8D4E1AB02F5900C95425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A21E8D4F1AB02F5900C95425 /* Build configuration list for PBXNativeTarget "inheritanceTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +459,7 @@
 				A21E8D511AB02F5900C95425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
